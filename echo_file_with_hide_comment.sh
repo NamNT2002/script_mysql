@@ -26,3 +26,6 @@ sed '/^\#/d' $file > tt
 mv tt $file
 end
 That should take care of it...
+
+
+grep ^[^#] /etc/keystone/keystone.conf
